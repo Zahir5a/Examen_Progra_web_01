@@ -1,0 +1,141 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* BARRA DE NAVEGACION*/
+header {
+    width: 100%;
+    background-color: #1b1b2f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navegacion {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 40px;
+}
+
+#navegacion li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* LOGO */
+#logo {
+    width: 150px;
+    margin: 15px 40px;
+}
+
+/* MAIN - BANNER*/
+#banner {
+    background-image: url("/pregunta1/imagenes/banner.png");
+    background-size: cover;
+    mask-repeat: no-repeat;
+    aspect-ratio: 1600/600;
+
+    display: flex;
+    color: white;
+}
+
+#contenido_banner {
+    width: 40%;
+    margin: 100px 70px;
+}
+
+#contenido_banner > h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+#contenido_banner > h2{
+    font-size: 29px;
+    margin: 0;
+    font-weight: 100;
+}
+
+#contenido_banner > h3{
+    font-size: 15px;
+    margin: 0;
+    font-weight: 100;
+    color: #e63946;
+    letter-spacing: 5px;
+}
+
+#contenido_banner > p{
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+#contenido_banner > button {
+    border: none;
+    background-color: #e63946;
+    color: white;
+    padding: 12px 36px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+/* RECIEN LLEGADOS*/
+
+#apartado_reciente {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f1ea;
+    width: 100%;
+}
+
+
+#recien_llegado {
+    text-align: center;
+    color: #1b1b2f;
+    margin-top: 30px;
+}
+
+#discos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    margin: 20px;
+    width: 250px;
+    height: 345px;
+    border-radius: 10px;
+}
+
+.portada {
+    width: 87%;
+    margin: 15px;
+    border-radius: 10px;
+    aspect-ratio: 400/400;
+}
+
+.disco {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.genero {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1b1b2f;
+}
+
+.precio {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

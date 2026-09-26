@@ -1,0 +1,17 @@
+TEXTOS DE LA PÁGINA (Pregunta 1)
+
+Cabecera
+  Menú: Vinilos | CD | Tocadiscos | Preventas | Eventos
+
+Banner
+  VINILO DEL MES
+  NOCHE DE SURCOS
+  Festival en vivo, edición limitada
+  Doble vinilo de 180 gramos con las mejores grabaciones del festival. Solo 500 copias numeradas. Preventa hasta el 31 de octubre.
+  Botón: Reservar mi copia
+
+Recién llegados
+  Luna Eléctrica           | Synth pop   | S/ 89.00   | luna-electrica.png
+  Los Cóndores del Ritmo   | Cumbia      | S/ 75.00   | condores-del-ritmo.png
+  Marea Baja               | Indie folk  | S/ 95.00   | marea-baja.png
+  Ruido Blanco Vol. 2      | Rock        | S/ 110.00  | ruido-blanco.png
